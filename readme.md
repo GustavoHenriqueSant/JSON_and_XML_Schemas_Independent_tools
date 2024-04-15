@@ -8,19 +8,23 @@ To execute the independent tools, you need to have [Maven](https://maven.apache.
 
 This project was developed in the NetBeans IDE. To use it in NetBeans, simply open the Maven projects `./JSON_portability_test` and `./XML_portability_test` in NetBeans and perform the 'build' operation on each of them. If you prefer to use another IDE, you can install the dependencies using the commands described below.
 
-### JSON portability validation
+### I. JSON portability validation
 
 Within the directory `./JSON_portability_test`, execute the following command:
 
- ```mvn clean install```
+``` bash
+mvn clean install
+```
 
 All dependencies for "JSON_portability_validation" independent toll will be properly installed.
 
-### XML portability validation
+### II. XML portability validation
 
 Similarly, within the directory `./XML_portability_test`, execute the command:
 
-`mvn clean install`
+```bash
+mvn clean install
+```
 
 All dependencies for "XML_portability_validation" independent toll will be properly installed.
 
