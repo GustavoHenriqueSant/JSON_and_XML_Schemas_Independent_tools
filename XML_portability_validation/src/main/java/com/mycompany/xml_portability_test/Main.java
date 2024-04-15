@@ -35,7 +35,7 @@ public class Main {
             
             //Saving the modified analysis to be imported later by WebSTAMP
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true); // Formata a saída XML
-            marshaller.marshal(que, new File(System.getProperty("user.dir") + "\\assets\\ATTrainDoorSystem.xml"));
+            marshaller.marshal(que, new File(System.getProperty("user.dir") + "\\assets\\ATTXML_TrainDoorSystem.xml"));
             
             for(int i = 0; i < que.getActuators().size(); i++){
                 System.out.println("Actuator " + Integer.toString(i) + ":");

@@ -28,4 +28,5 @@
             <version>2.3.2</version>
         </dependency>
     </dependencies>
+    <name>XML_portability_test_hub</name>
 </project>
