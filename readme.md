@@ -2,11 +2,11 @@
 
 ## Prerequisities
 
-To execute the independent tools, you need to have [Maven](https://maven.apache.org/download.cgi) and [JDK 16](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html) installed.
+To execute the independent tools, you need to have [Maven (latest version)](https://maven.apache.org/download.cgi) and [JDK 16 (or higher)](https://www.oracle.com/java/technologies/javase/jdk16-archive-downloads.html) installed.
 
 ## Instalation
 
-This project was developed in the NetBeans IDE. To use it in NetBeans, simply open the Maven projects `./JSON_portability_validation and `./XML_portability_validation` in NetBeans and perform the 'build' operation on each of them. If you prefer to use another IDE, you can install the dependencies using the commands described below.
+This project was developed in the NetBeans IDE. To use it in NetBeans, simply open the Maven projects `./JSON_portability_validation` and `./XML_portability_validation` in NetBeans and perform the 'build' operation on each of them. If you prefer to use another IDE, you can install the dependencies using the commands described below.
 
 ### I. JSON portability validation
 
