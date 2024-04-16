@@ -10,7 +10,7 @@ This project was developed in the NetBeans IDE. To use it in NetBeans, simply op
 
 ### I. JSON portability validation
 
-Within the directory `./JSON_portability_validation`, execute the following command:
+Within the `./JSON_portability_validation` directory, execute the following command:
 
 ``` bash
 mvn clean install
@@ -20,7 +20,7 @@ All dependencies for "JSON_portability_validation" independent toll will be prop
 
 ### II. XML portability validation
 
-Similarly, within the directory `./XML_portability_validation`, execute the command:
+Similarly, within the `./XML_portability_validation` directory, execute the command:
 
 ```bash
 mvn clean install
