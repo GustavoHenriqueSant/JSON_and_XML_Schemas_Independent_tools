@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         try{
             //Reading the STPA analysis from the JSON file and transforming it into a Project object, including all relationships between entities.
-            String json =  new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + "\\assets\\TrainDoosdrSystem.json")));
+            String json =  new String(Files.readAllBytes(Paths.get(System.getProperty("user.dir") + "/assets/TrainDoorSystem.json")));
             Gson gson_object = new Gson();
             Project projeto = gson_object.fromJson(json, Project.class);
             //==================================================================================================================================================================================
@@ -32,10 +32,9 @@ public class Main {
             //==================================================================================================================================================================================
             //Saving modified analysis in this tool, to be imported later by WebSTAMP
             json = gson_object.toJson(projeto);
-            FileWriter fileWriter = new FileWriter(System.getProperty("user.dir") + "\\assets\\AttJSON_TrainDoorSystem.json");
+            FileWriter fileWriter = new FileWriter(System.getProperty("user.dir") + "/assets/AttJSON_TrainDoorSystem.json");
             fileWriter.write(json);
             fileWriter.close();
-            System.out.print("Finalizado");
         } catch (FileNotFoundException | NoSuchFileException e){
             System.out.println("File not found.");
         } catch (Exception e) {
